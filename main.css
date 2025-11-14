@@ -1,0 +1,111 @@
+main {
+    padding: 30px; /* Khoảng cách xung quanh */
+}
+
+/* COURSES SECTION */
+.courses-section {
+    text-align: left; /* Canh trái nội dung */
+    margin-top: 50px;
+}
+
+.courses-section h2 {
+	text-align: left;
+    font-size: 30px; /* Kích thước tiêu đề */
+    margin-bottom: 20px;
+}
+
+.courses-section p {
+	text-align: left;
+    font-size: 15px; /* Kích thước đoạn văn */
+    color: #666; /* Màu xám cho văn bản */
+    margin-bottom: 30px;
+}
+
+.course-grid {
+    display: flex;
+    justify-content: space-around; /* Căn giữa các khóa học */
+    flex-wrap: wrap; /* Để các phần tử xuống dòng khi cần */
+}
+
+.course-card {
+    background: #fff;
+    padding: 5 px;
+    width: 490px; /* Chiều rộng cố định */
+    margin: 20px;
+    text-align: left;
+    border: 1px solid #ddd; /* Viền xung quanh */
+}
+
+.course-card img {
+    width: 100%;
+    height: 325px;
+}
+
+.course-card h3 {
+    font-size: 20px;
+    margin: 25px;
+}
+
+.course-card p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.course-card button {
+    padding: 8px 16px;
+    background: #ff3300;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+	margin-bottom: 15px;
+}
+
+.course-card button:hover {
+    background: #ff6600; /* Màu thay đổi khi rê chuột */
+}
+
+/* LECTURERS SECTION */
+.lecturers-section {
+    text-align: left; /* Canh trái nội dung */
+    margin-top: 25px;
+}
+
+.lecturers-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.lecturer-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Giống như phần khóa học */
+}
+
+.lecturer-card {
+    background: #ffffff;
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.lecturer-card img {
+    width: 100%;
+    height: 250 px;
+    margin-bottom: 15px;
+}
+
+.lecturer-card h4 {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.lecturer-card p {
+    font-size: 14px;
+    color: #777;
+}
+
+
